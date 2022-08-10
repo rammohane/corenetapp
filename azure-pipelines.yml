@@ -53,5 +53,5 @@ steps:
   displayName: 'NuGet push'
   inputs:
     command: push
-    publishVstsFeed: '<projectName>/<feed>'
+    publishVstsFeed: 'ASPDOTNET PROJECT/nugetfeed'
     allowPackageConflicts: true
